@@ -1,0 +1,26 @@
+:root {
+    --width-display: 398px;
+    --height-display: 498px;
+}
+
+.tiles {
+    width: var(--width-display);
+    height: var(--height-display);
+    display: grid;
+    grid-template-columns: repeat(22, calc(var(--width-display) / 22));
+    grid-template-rows: repeat(24, calc(var(--height-display) / 24));
+    position: absolute;
+    overflow: hidden;
+}
+.tile {
+    /* border: 1px dotted rgb(214, 91, 9); */
+    opacity: 0;
+    z-index: 1;
+    color:rgb(241, 241, 241);
+}
+.disabled {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}

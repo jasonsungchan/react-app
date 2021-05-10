@@ -1,0 +1,7 @@
+img {
+    width: 398px;
+    height: 498px;
+    object-fit: cover;
+    /* visibility: hidden; */
+    position: absolute;
+  }

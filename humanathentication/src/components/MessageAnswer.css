@@ -1,0 +1,10 @@
+.message-container {
+    height: 30px;
+}
+
+.bottom {
+    text-align: center;
+}
+.attempt-counter {
+    color: red;
+}
