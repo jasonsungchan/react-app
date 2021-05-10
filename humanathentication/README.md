@@ -1,4 +1,4 @@
-**** Please note that this is the early test version of my personal project so it may not have a full functionality.**
+**Please note that this is the early test version of my personal project so it may not have a full functionality.**
 
 1. This project was created to test my knowledge in React fundamentals, HTML, CSS, and JavaScript.
 2. This simple app is similar to CAPTCHA which is used to distinguish human based on its user input.
