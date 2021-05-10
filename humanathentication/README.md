@@ -9,3 +9,4 @@
 1. In the final version, there will be more algorithms added for security.
 2. Randomized images to be displayed each time the page is rendered.
 3. More validation steps to be added.
+4. Will use Optical Character Reconition library
