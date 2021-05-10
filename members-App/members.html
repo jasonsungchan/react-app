@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>members</title>
+    <link rel="stylesheet" href="./members.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script async src="./members.js"></script>
+</head>
+
+<body>
+    <div id="members-app">
+        <div class="top">
+            <header>
+                <h1 class="title">Member List</h1>
+            </header>
+        </div>
+        <main>
+            <div class="input-container">
+                <input id="input-search" name="input-search" type="text" placeholder="Search" />
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="result-container">
+                <ul class="results">
+                    <li class="message" id="pre-rendered">Loading...</li>
+                    <!-- <li class="result-list">placeholder</li>
+                        <button class="btn-remove">remove</button> -->
+                </ul>
+            </div>
+            <div class="options-container bottom">
+                <ul class="options">
+                    <li>
+                        <button>ADD</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-container">
+                
+                <iframe name="frame"></iframe>
+                <!-- prevents the page from reloading when form is submitted -->
+
+                <form id="form-addMember" target="frame">
+                    <section class="first-name form-field">
+                        <label for="firstName">First name</label>
+                        <input class="input-box" type="text" name="first_name" id="firstName" minlength="2" required>
+                    </section>
+                    <section class="last-name form-field">
+                        <label for="lastName">Last name</label>
+                        <input class="input-box" type="text" name="last_name" id="lastName" minlength="2" required>
+                    </section>
+                    <section class="email form-field">
+                        <label for="email">Email</label>
+                        <input class="input-box" type="email" name="email" id="email" required>
+                    </section>
+                    <section class="submission form-field">
+                        <button class="btn-submit">Add</button>
+                    </section>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
